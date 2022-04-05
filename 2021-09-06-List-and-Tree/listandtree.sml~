@@ -1,0 +1,10 @@
+(* Q1. *)
+
+fun map f []  = []
+  | map f a =
+    (f(hd(a))) :: (map (f tl(a)))
+	    
+				
+fun f a = a+1
+		
+	

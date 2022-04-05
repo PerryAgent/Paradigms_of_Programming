@@ -1,0 +1,5 @@
+(*Q1.*)
+
+type var = string
+datatype expr = variable x
+			 |

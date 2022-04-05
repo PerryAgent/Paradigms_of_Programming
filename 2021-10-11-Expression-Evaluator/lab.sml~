@@ -1,0 +1,7 @@
+(*Q1.*)
+
+datatype Expr = Const of real
+	       |Var of char
+	       |Add of Expr*Expr
+	       |Mul of Expr*Expr
+				
